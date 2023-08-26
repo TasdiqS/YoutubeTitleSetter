@@ -5,7 +5,7 @@ This repository hosts a Java project focused on interacting with the YouTube API
 
 ## Issue: Exception When Setting YouTube Video Title via Code
 
-When attempting to set the title of a YouTube video through code in the `YLCmain` file, I encountered an exception that resulted in a `500 Internal Server Error`. I am able to get the metadata of video but unable to set video title programmatically The error message and stack trace are in the error.txt file on the main branch. 
+When attempting to set the title of a YouTube video through code in the `YLCmain` file, I encountered an exception that resulted in a `500 Internal Server Error`. I am able to get the metadata of video but unable to set video title programmatically The error message and stack trace are in the [file](https://github.com/TasdiqS/YoutubeTitleSetter/blob/main/error.txt) on the main branch. 
 
 
 Features:
