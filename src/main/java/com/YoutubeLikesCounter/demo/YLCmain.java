@@ -59,5 +59,6 @@ public class YLCmain {
 			System.out.println("Number of views: " + viewCount);
 			System.out.println("Number of comments: " + commentCount);
 		}
+		
 	}
 }
