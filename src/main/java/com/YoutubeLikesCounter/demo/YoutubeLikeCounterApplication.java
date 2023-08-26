@@ -51,7 +51,7 @@ public class YoutubeLikeCounterApplication {
 		System.out.println("starting checkpoint 3");
 
 		// Define the video id parameter
-		String videoId = "i";
+		String videoId = "id";
 
 		// Define the API request for retrieving the video statistics
 		Videos.List request = youtube.videos().list("statistics");
