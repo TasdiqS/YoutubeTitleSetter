@@ -1,0 +1,21 @@
+Exception in thread "main" com.google.api.client.googleapis.json.GoogleJsonResponseException: 500 Internal Server Error
+GET https://www.googleapis.com/youtube/v3/videos?id=VidID&key=APIKey&part=snippet,statistics
+{
+  "code" : 500,
+  "errors" : [ {
+    "domain" : "global",
+    "message" : "Internal error encountered.",
+    "reason" : "backendError"
+  } ],
+  "message" : "Internal error encountered.",
+  "status" : "INTERNAL"
+}
+	at com.google.api.client.googleapis.json.GoogleJsonResponseException.from(GoogleJsonResponseException.java:146)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:118)
+	at com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest.newExceptionOnError(AbstractGoogleJsonClientRequest.java:37)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest$1.interceptResponse(AbstractGoogleClientRequest.java:428)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:1108)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:514)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:455)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:565)
+	at com.YoutubeLikesCounter.demo.YLCmain.main(YLCmain.java:40)
